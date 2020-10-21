@@ -19,7 +19,7 @@ a{
 }
 .main {
     width: 1200px;
-    margin: auto;
+    margin:0 auto;
     /* 版心 */
 }
 #iphone{
@@ -113,6 +113,7 @@ background: #ed145b;
 cursor: pointer;
 outline:none;
 }
+
 #Settlement{
     width:140px ;
     height: 32px;
