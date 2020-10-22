@@ -92,7 +92,7 @@ h1{
     line-height: 20px;
     display: block;
 }
-input{
+.input{
     border: 1px solid #cfcfcf;
     outline: none;
     width: 300px;

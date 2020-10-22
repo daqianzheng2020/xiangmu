@@ -265,7 +265,11 @@ float: left;
     float: left;
     padding: 10px;
     background-color: white;
+   
     
+}
+.goods ul li a p{
+    color: black;
 }
 .goods ul li img{
     width: 310px;
