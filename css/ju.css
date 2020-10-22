@@ -54,7 +54,49 @@ a{
 }
 .header_nav ul li a{
     cursor: pointer;
-color: #999999;;
+color: #999999;
+}
+#xiala a:hover{
+    color: #ff0066;
+}
+#xiala{
+    position: relative;
+}
+#xiala ul{
+    display: none;
+    border: solid 1px  #999999;
+    height: 252px;
+    width: 90px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+
+}
+
+#xiala ul li a:hover{
+    color: #ff0066;
+    
+}
+#xiala1 a:hover{
+    color: #ff0066;
+}
+#xiala1{
+    position: relative;
+}
+#xiala1 ul{
+    display: none;
+    border: solid 1px  #999999;
+    height: 196px;
+    width: 90px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+
+}
+
+#xiala1 ul li a:hover{
+    color: #ff0066;
+    
 }
 #xin{
     background:url(../img/header_sprites1.png) no-repeat;
@@ -142,6 +184,13 @@ outline:none;
     width: 6px;
     display: inline-block;
 }
+.v1{
+    background: url(../img/popheadarrow01.png) no-repeat;
+    background-position: 0 0;
+    height: 6px;
+    width: 6px;
+    display: inline-block;
+}
 
 .header_center a{
     background: url(../img/logo_new_v1.jpg) no-repeat;
@@ -211,11 +260,21 @@ float: left;
 }
 .goods ul li {
     margin-top: 20px;
-    width: 350px;
-    height: 470px;
-    background-color: pink;
+    width: 330px;
+    height: 450px;
     float: left;
+    padding: 10px;
+    background-color: white;
     
+}
+.goods ul li img{
+    width: 310px;
+    height: 350px;
+}
+.goods ul li p{
+margin-top: 20px;   
+font-size: 14px;
+line-height: 20px;
 }
 .goods ul li:nth-child(2){
     margin:20px 64px 0 64px ;
@@ -368,7 +427,7 @@ margin: 20px 0 20px 35px;
     z-index: 9990;
     right: 0px;
     top: 0px;
-    display: block;
+
     font-size: 12px;
 }
 .right_center{
@@ -406,6 +465,7 @@ margin: 20px 0 20px 35px;
     height: 30px;
     line-height: 30px;
 }
+
 .right_center ul li:nth-child(3){
     background: url(../img/ibar_sprites.png);
     background-position: 0 -57px;
@@ -455,12 +515,17 @@ margin: 20px 0 20px 35px;
     margin-top: 30px;
 }
 .left-nav{
-    width: 60px;
     position: fixed;
-    left:14%;
+    left: 50%;
+    transform: translateX(-50%);
     top:100px;
-    z-index: 12;
+    z-index: 20;
+    display: none;
 
+}
+.watch{
+    position: absolute;
+    left: -80px;
 }
 
 #li1{
@@ -505,3 +570,42 @@ margin: 20px 0 20px 35px;
     width: 28px;
     margin-bottom: 5px;
 }
+
+.xiala3{
+    display: none;
+    background-color: white;
+    }
+.xiala3 ul :nth-child(1){
+    width: 500px;
+    height:300px;
+}
+.a a{ 
+    display: block;
+    height:280px ;
+    width: 100;
+    background:url(../img/30573_254_135_003-web.jpg) no-repeat;
+
+
+}
+.beat-char{
+    position: relative;
+    display: inline-block;
+    background: transparent;
+ 
+}
+.beat-char li a:hover{
+    color: #fe6397;
+}
+h5{
+    color: #fe6397;
+    margin-top: 15px;
+}
+h5 span{
+text-align: right;
+font-size: 12px;
+color: red;
+margin-left:80px;
+}
+i{
+    font-style: normal;
+    }
