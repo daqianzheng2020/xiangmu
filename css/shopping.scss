@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+  }
+  li {
+    list-style: none;
+  }
+  img {
+    display: block;
+  }
+  a{
+    text-decoration: none;
+  }
+  .main {
+    width: 950px;
+    margin:0 auto;
+  }
+.header{
+background: white;
+height: 120px;
+border-bottom:2px solid gray ;
+}
+.header ul li
+{   
+    &:nth-child(1){
+        float: left;
+        padding: 30px 0;
+        a{
+            background:url(../img/cart_logo.jpg) no-repeat;
+            width: 260px;
+            height: 48px;
+            display: block;
+        }
+    }
+    &:nth-child(2){
+        float: right;
+        font-size: 14px;
+        text-align: 20px;
+        span{
+            color: slategrey;
+            margin-left: 130px;
+            
+        }
+        a{
+            color: pink;
+            margin:0 20px;
+        }
+        p{
+            background: url(../img/order_path.png) no-repeat;
+            width: 380px;
+            height: 50px;
+            background-position: 0 0;
+            margin: 20px 100px 0 0;
+        }
+    }
+
+}
+.footer{
+    height: 130px;
+    background-color: #404040;
+    text-align: center;
+    padding: 20px 0;
+    p{
+        font-size: 14px;
+        color:white;
+        line-height: 20px;
+        a{
+        color:white ;
+        line-height: 20px;
+        }
+    }
+    ul {
+        li {
+          float: left;
+          height: 46px;
+          width: 124px;
+          margin-right: 14px;
+          border-radius: 4px;
+          background-color: white;
+          margin: 25px 15px 25px 0;
+          &:nth-child(1) {
+            background: url(../img/footer_btm_icon.png) no-repeat;
+            background-position: 0 0;
+            margin-left: 125px;
+          }
+          &:nth-child(2) {
+            background: url(../img/footer_btm_icon.png) no-repeat;
+            background-position: -127px 0;
+            cursor: pointer;
+          }
+          &:nth-child(3) {
+            background: url(../img/footer_btm_icon.png) no-repeat;
+            background-position: -254px 0;
+          }
+          &:nth-child(4) {
+            background: url(../img/footer_btm_icon.png) no-repeat;
+            background-position: -381px 0;
+          }
+          &:nth-child(5) {
+            background: url(../img/footer_btm_icon.png) no-repeat;
+            background-position: -508px 0;
+            cursor: pointer;
+          }
+        }
+      }
+  
+        
+    
+}
